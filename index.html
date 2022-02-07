@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animasyonlu Site</title>  
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"rel="stylesheet"/>
+
+    <!-- İconlar için kullanacağımız fontawesome kütüphanesi. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+        <div class="container">
+                
+                <nav>
+
+                        <img src="img/hg.png" alt="HG SOFTWARE">
+                        <div class="nav-links">
+                                <li class="nav-link">Home</li> 
+                                <li class="nav-link">About</li>
+                                <li class="nav-link">Projects</li>                              
+                        </div>                     
+                       
+                </nav>
+
+                <section id="banner">
+                        <div class="banner-text">
+                                <h2>Take the First Step</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime placeat non incidunt delectus quas nostrum eos magnam nobis porro asperiores?</p>
+                                <button>Try now!</button>
+                        </div> 
+                        <div class="img banner-img">
+                                <img src="img/banner-image.jpg" alt="Banner-image">
+                        </div>
+
+                </section>
+                <hr />
+                <section id="about">
+                        <div class="about-text">
+                                <h2>Code with Me</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minima tempore voluptas magni veritatis magnam aliquid debitis, numquam amet fuga!</p>
+                        </div>
+                        <div class="img about-img">
+                                <img src="img/about-image.jpeg" alt="About-image">
+                        </div>
+                </section>
+                <section id="vid">
+                        <h3> <strong>Far beyond</strong> what you see...</h3>
+                        <div class="card-wrapper">
+                                <div class="card">
+                                        <i class="fas fa-laptop-code icon"></i>
+                                        <h4 class="card-text">Coding</h4>
+                                </div>
+                                <div class="card">
+                                        <i class="fab fa-connectdevelop icon"></i>
+                                        <h4 class="card-text">İnnovation</h4>
+                                </div>
+                                <div class="card">
+                                        <i class="fas fa-project-diagram icon"></i>
+                                        <h4 class="card-text">Project</h4>
+                                </div>
+                        </div>
+                        <div class="video">
+                                <video muted autoplay loop>
+                                  <source src="img/video1.mp4" />
+                                </video>
+                        </div>
+                </section>
+        </div>
+
+
+<!-- GSAP: Animasyonlar için kullanacağımız bir javascript kütüphanesidir.-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" 
+            integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- SCROLLMAGİC : Kaydırmalı şeyler yapmak için gerekli olan kütüphane.-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
